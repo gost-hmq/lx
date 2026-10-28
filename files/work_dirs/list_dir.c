@@ -1,3 +1,10 @@
+/*
+ * d_ino    inode号,也就是绝对地址
+ * d_off    目录流位置信息
+ * d_reclen 目录记录长度d_ino+d_name+为了内存对齐而产生的空白符
+ * d_type   文件类型
+ * d_name   目录名/文件名
+ */
 #include "list_dir.h"
 #include <dirent.h>
 #include <stdio.h>
