@@ -1,4 +1,8 @@
+# 编译产物
 *.out
-*.txt
-test/
-plugins/
+*.so
+*.o
+
+# 可执行文件
+dirmanager/dirmanager
+
